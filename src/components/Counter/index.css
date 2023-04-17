@@ -1,0 +1,11 @@
+.counter-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter-btn {
+  margin-right: 5px;
+}
+.count-div {
+  margin-right: 5px;
+}

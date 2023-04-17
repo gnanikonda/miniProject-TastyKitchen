@@ -1,0 +1,84 @@
+.restaurant-home-link {
+  text-decoration: none;
+}
+
+.restaurant-home-img {
+  border-radius: 8px;
+  width: 160px;
+  height: 100px;
+  margin-right: 10px;
+}
+.home-list-restaurant-class {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.restaurant-name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+  letter-spacing: 0.2px;
+
+  /* Light / blue-gray / 700 */
+  color: #334155;
+}
+.restaurant-para {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  /* identical to box height, or 133% */
+
+  /* Light / blue-gray / 500 */
+  color: #64748b;
+}
+
+.rating-div-home {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.rating-icon {
+  color: #ffcc00;
+  margin-right: 5px;
+}
+.rating-head {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+
+  /* Light / blue-gray / 800 */
+  color: #1e293b;
+  margin-right: 5px;
+}
+.restaurant-totalratings {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+
+  /* Light / blue-gray / 500 */
+  color: #64748b;
+}
+
+@media screen and (min-width: 481px) {
+  .restaurant-home-link {
+    width: 30%;
+  }
+}
